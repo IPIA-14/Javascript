@@ -1,13 +1,17 @@
-alert("A continuacion ingresa el valor de los siguientes en numeros")
-let producto = parseInt(prompt("Ingrese el valor del producto:  "));
-let iva = parseInt(prompt("Ingrese el porcentaje del iva(%)"));
 
-if (isNaN(producto) || isNaN(iva)){
-    alert(" Error!! Ingresa valores numericos validos")
-}else{
-    let valor_iva = (producto * iva / 100)
-    let pagar = (valor_iva + producto);
-    alert ("\n El precio total a pagar es de: $" + pagar +" \n Usted pagara por el producto sin iva un total de: $"+producto  +" \n Usted pagara por el iva un total de: $" + valor_iva)
-    
+let nombre = "Juan Ipia";
+document.getElementById("mostrar").innerHTML =
+ "Hola " + nombre + " vamos a calcular cuanto pagaras hoy, ingresa los datos correspondientes."
+
+function pagar(){
+
+    let valor1 = parseInt(document.getElementById("input1").value);
+    let valor2 = parseInt(document.getElementById("input2").value);
+    let iva = valor1 * valor2 / 100
+    let resultado = valor1 + iva;
+
+    document.getElementById("mostrar").innerHTML = "El total que usted debe pagar por el producto es de: $" + resultado + "<br> Usted pagara por el producto un total de: $" + valor1 + "<br> Usted pagara por el iva un total de: $" + iva
 }
-
+    
+let btn = document.getElementById("valorPagar");
+document.addEventListener("click", btn)

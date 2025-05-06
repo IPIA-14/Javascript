@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.fondo{
+    background: linear-gradient( rgb(127, 244, 3) 35%,yellow 70%, rgb(231, 225, 45) 80%);
+    width: 1520px;
+    height: 675px;
+}
+.contenedor{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    top: 250px;
+    
+    
+}
+.texto{
+    display: flex;
+    position: relative;
+    font-family: cursive;
+    align-items: center;
+    margin: auto;
+}
