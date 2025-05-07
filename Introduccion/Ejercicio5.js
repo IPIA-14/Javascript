@@ -13,5 +13,3 @@ function consumo(){
 
 }
 
-let btn = document.getElementById("consumo");
-document.addEventListener("click",btn)

@@ -18,5 +18,3 @@ function pagar(){
     });
 }
     
-let btn = document.getElementById("valorPagar");
-document.addEventListener("click", btn)

@@ -17,5 +17,3 @@ function resultado(){
     });
 }
 
-let btn = document.getElementById("resultadoAreas");
-document.getElementById("click", btn)

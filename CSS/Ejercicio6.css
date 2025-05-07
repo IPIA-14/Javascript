@@ -19,7 +19,7 @@ body{
     font-family: cursive;
     align-items: center;
     justify-content: center;
-    top: 150px;
+    top: 135px;
 }
 .botonReini{
     display: flex;
@@ -36,5 +36,15 @@ body{
     align-items: center;
     justify-content: center;
     top: -50px;
+    font-family: cursive;
+}input{
+    background-color: rgb(238, 219, 196);
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+button{
+    background-color: rgb(251, 255, 196);
+    border-radius: 10px;
     font-family: cursive;
 }

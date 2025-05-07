@@ -8,6 +8,3 @@ function nombre(){
         location.reload(); 
     });
 }
-
-let btn = document.getElementById("nombre");
-document.addEventListener("click", btn)

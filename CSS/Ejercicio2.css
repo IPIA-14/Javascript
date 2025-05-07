@@ -29,4 +29,14 @@ body{
     align-items: center;
     justify-content: center;
     top: 300px;
+}input{
+    background-color: rgb(238, 219, 196);
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+button{
+    background-color: rgb(251, 255, 196);
+    border-radius: 10px;
+    font-family: cursive;
 }
