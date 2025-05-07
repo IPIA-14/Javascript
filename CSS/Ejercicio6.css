@@ -30,3 +30,11 @@ body{
     justify-content: center;
     top: 300px;
 }
+.parrafo{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: -50px;
+    font-family: cursive;
+}

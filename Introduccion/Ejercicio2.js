@@ -8,13 +8,13 @@ function resultado(){
     let valor2 = parseInt(document.getElementById("input2").value);
     let area = valor1 * valor2
     let perimetro = (valor1 * 2) + (valor2 * 2)
+    
+    document.getElementById("mostrar").innerHTML = "El area del cuadrado es de: " + area + "<br> El resultado de el perimetro del cuadrado es de: " + perimetro
 
     const botonRecargar = document.getElementById("botonReiniciar");
     botonRecargar.addEventListener("click", () => {
         location.reload(); 
     });
-    
-    document.getElementById("mostrar").innerHTML = "El area del cuadrado es de: " + area + "<br> El resultado de el perimetro del cuadrado es de: " + perimetro
 }
 
 let btn = document.getElementById("resultadoAreas");

@@ -10,13 +10,12 @@ function pagar(){
     let iva = valor1 * valor2 / 100
     let resultado = valor1 + iva;
 
+    document.getElementById("mostrar").innerHTML = "El total que usted debe pagar por el producto es de: $" + resultado + "<br> Usted pagara por el producto un total de: $" + valor1 + "<br> Usted pagara por el iva un total de: $" + iva
+
     const botonRecargar = document.getElementById("botonReiniciar");
     botonRecargar.addEventListener("click", () => {
         location.reload(); 
     });
-
-
-    document.getElementById("mostrar").innerHTML = "El total que usted debe pagar por el producto es de: $" + resultado + "<br> Usted pagara por el producto un total de: $" + valor1 + "<br> Usted pagara por el iva un total de: $" + iva
 }
     
 let btn = document.getElementById("valorPagar");
