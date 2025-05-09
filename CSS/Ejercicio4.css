@@ -1,10 +1,15 @@
 body{
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 .fondo{
     background: linear-gradient( rgb(127, 244, 3) 35%,yellow 70%, rgb(231, 225, 45) 80%);
-    width: 1520px;
-    height: 675px;
+    width: auto;
+    max-width: 1920px;
+    height: auto;
+    min-height: 690px;
+    margin: auto 0;
 }
 .contenedor{
     position: relative;
@@ -48,4 +53,21 @@ button{
     background-color: rgb(251, 255, 196);
     border-radius: 10px;
     font-family: cursive;
+}
+.atras{
+    display: flex;
+    position: absolute;
+    top: 580px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.siguiente{
+    display: flex;
+    position: absolute;
+    top: 580px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(180deg);
 }

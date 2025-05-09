@@ -17,4 +17,7 @@ function pagar(){
         location.reload(); 
     });
 }
-    
+
+
+
+
