@@ -12,6 +12,9 @@ const  numeros=[] //1 al 10
 //.pop elimina al final()
 //.shift() elimina el primero
 //.length mirar el arreglo propiedades
+//.splice Elimina un rango de elementos
+//.reverse invierte el orden
+//.sort elimina los elementos
 
 for (let index = 0; index <10; index++){
     numeros.push(index + 1)
