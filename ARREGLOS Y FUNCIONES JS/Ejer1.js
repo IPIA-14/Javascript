@@ -1,11 +1,16 @@
 const prompt = require("prompt-sync")()
 
-let x = prompt("Ingrese el numero 1");
-let y = prompt("Ingrese el numero 2");
-let z = -Infinity;
-
-for (let i = 0; i <= 100; i++) {
-    let x = getrandomValue();
-    let y = getrandomValue();
-    let z = x * x + y * y;
+function mejorValor(min, max) {
+    let zMejor = 0, xMayor = 0, yMayor = 0
+    for (let index = 0; index < 100; index++) {
+        let x = Math.floor(Math.random() * (max - min + 1)) + min;
+        let y = Math.floor(Math.random() * (max - min + 1)) + min;
+        let z = (x * x + y * y);
+        if (z > zMejor){
+            zMejor = z
+            xMayor = x
+            yMayor = y
+        }
+    }
+    return (`Z = X² + Y² = ${zMejor} = ${xMayor}² + ${yMayor}²`)
 }

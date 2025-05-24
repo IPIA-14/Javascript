@@ -1,5 +1,3 @@
-/* Hacer una función que reciba un arreglo de números y devuelva la suma de todos sus valores. */
-
 const prompt = require("prompt-sync")()
 
 function sumarNumeros(arreglo){
